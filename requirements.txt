@@ -1,0 +1,9 @@
+# requirements.txt
+torch
+diffusers
+transformers
+accelerate
+Pillow
+opencv-python
+numpy
+python-telegram-bot

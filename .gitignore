@@ -1,0 +1,15 @@
+# .gitignore
+
+# Entorno virtual de Python
+/env/
+
+# Archivos de configuración con secretos
+/.env
+/config/.env
+
+# Carpetas de caché de Python
+__pycache__/
+*.pyc
+
+# Archivos generados
+/output/
