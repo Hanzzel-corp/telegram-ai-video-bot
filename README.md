@@ -1,84 +1,62 @@
-🚀 README.md mejorado
-markdown
-Copiar
-Editar
-# 🤖 Telegram AI Video Bot
+# 🤖 Bot de Telegram para Generación de Video con IA
 
-Genera **videos animados a partir de texto** usando inteligencia artificial.
+Genera **videos animados a partir de texto** e imágenes usando inteligencia artificial.
 
-Este bot de Telegram utiliza modelos de IA como Stable Diffusion y Stable Video Diffusion para convertir un prompt de texto en un video realista y animado.
+Este bot de Telegram utiliza modelos de IA como Stable Diffusion y Stable Video Diffusion para convertir un prompt de texto en un video animado, o para transformar tus fotos a estilo anime.
 
 ---
-
 ## 🧠 Características
 
-- 🎨 **Texto a Imagen** con `Stable Diffusion`
-- 🎞️ **Imagen a Video** con `Stable Video Diffusion`
-- 🤖 **Interfaz vía Telegram**
-- 💬 Comandos simples para generar contenido visual
+- 🎨 **Texto a Video:** Envía un prompt y recibe un video animado.
+- 🖼️ **Foto a Anime:** Envía una foto y el bot la transformará a estilo anime.
+- 🤖 **Interfaz vía Telegram:** Control total a través de comandos y mensajes simples.
+- 📂 **Código Abierto:** Libre para usar, modificar y aprender.
 
 ---
-
 ## 📦 Requisitos
 
 - Python 3.10 o superior
-- GPU con soporte CUDA (opcional, recomendado)
-- Dependencias (instalables con `pip install -r requirements.txt`)
-- Cuenta de HuggingFace para acceder a los modelos
+- Git
+- Una cantidad considerable de RAM (8GB como mínimo, 16GB+ recomendado)
+- GPU con soporte CUDA (opcional, pero **altamente recomendado** para velocidad)
 
 ---
-
 ## ⚙️ Instalación
 
-```bash
-git clone https://github.com/Hanzzel-corp/telegram-ai-video-bot.git
-cd telegram-ai-video-bot
-python -m venv env
-env\Scripts\activate  # En Windows
-pip install -r requirements.txt
-🚀 Uso
-Configura tu bot de Telegram con el token en bot/telegram_bot.py.
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/Hanzzel-corp/telegram-ai-video-bot.git](https://github.com/Hanzzel-corp/telegram-ai-video-bot.git)
+    cd telegram-ai-video-bot
+    ```
 
-Ejecuta el bot:
+2.  **Crea y activa un entorno virtual:**
+    ```bash
+    # Crear el entorno
+    python -m venv env
+    # Activar en Windows
+    .\env\Scripts\activate
+    # Activar en Linux/Mac
+    # source env/bin/activate
+    ```
 
-bash
-Copiar
-Editar
-python test_run.py
-Envía un mensaje a tu bot con el prompt:
+3.  **Instala las dependencias:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-nginx
-Copiar
-Editar
-Un colibrí de cristal volando entre rayos de luz
-Recibirás un video generado por IA.
-
-📂 Estructura del Proyecto
-bash
-Copiar
-Editar
-.
-├── bot/
-│   └── telegram_bot.py       # Controla la interacción con Telegram
-├── generator/
-│   └── svd_runner_real.py    # Genera el video usando SVD
-├── output/
-│   └── final_video.mp4       # Resultado generado
-├── requirements.txt
-└── README.md
-📸 Ejemplo
-
-
-🧪 Créditos
-Este proyecto fue desarrollado por Hanzzel Corp usando la lógica de los NCT (Números Cuánticos Tridimensionales) como base para futura integración semántica.
-
-⭐ Licencia
-MIT - Libre para usar, modificar y mejorar.
-
-yaml
-Copiar
-Editar
+4.  **Configura tu Token de Telegram:**
+    - Habla con `@BotFather` en Telegram para crear un bot y obtener tu token.
+    - Crea una carpeta llamada `config` en la raíz del proyecto.
+    - Dentro de `config`, crea un archivo llamado `.env`.
+    - Añade tu token al archivo `.env` de esta forma:
+      ```
+      TELEGRAM_TOKEN="AQUÍ_VA_TU_TOKEN_SECRETO"
+      ```
 
 ---
+## 🚀 Uso
 
-¿Te lo subo directamente como nuevo `README.md` o querés editarlo vos y luego hacer commit?
+Una vez instalado, ejecuta el bot desde la carpeta raíz del proyecto con el siguiente comando:
+
+```bash
+python -m bot.telegram_bot
