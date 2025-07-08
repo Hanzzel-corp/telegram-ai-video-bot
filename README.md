@@ -60,6 +60,7 @@ Una vez instalado, ejecuta el bot desde la carpeta raíz del proyecto con el sig
 
 ```bash
 python -m bot.telegram_bot
+<<<<<<< HEAD
 El bot se iniciará y estará esperando mensajes. Ahora puedes ir a Telegram y hablar con él.
 
 Para generar un video: Simplemente envíale un mensaje de texto con tu prompt (ej. Un colibrí de cristal volando entre rayos de luz).
@@ -74,3 +75,5 @@ Este proyecto fue desarrollado por Hanzzel Corp. La idea de la tecnología NCT (
 
 ⭐ Licencia
 MIT License - Libre para usar, modificar y mejorar.
+=======
+>>>>>>> 49402cf60c0a6c89cb342579756503751fbe1d14
