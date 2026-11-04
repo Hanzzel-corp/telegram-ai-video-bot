@@ -60,7 +60,6 @@ Una vez instalado, ejecuta el bot desde la carpeta raíz del proyecto con el sig
 
 ```bash
 python -m bot.telegram_bot
-<<<<<<< HEAD
 El bot se iniciará y estará esperando mensajes. Ahora puedes ir a Telegram y hablar con él.
 
 Para generar un video: Simplemente envíale un mensaje de texto con tu prompt (ej. Un colibrí de cristal volando entre rayos de luz).
@@ -71,9 +70,15 @@ Para crear un anime: Envíale una foto directamente.
 (Próximamente: un GIF mostrando el bot en acción)
 
 🧪 Créditos
-Este proyecto fue desarrollado por Hanzzel Corp. La idea de la tecnología NCT (Números Cuánticos Tridimensionales) se mantiene como una base conceptual para futura integración y desarrollo de lógicas semánticas avanzadas.
+Este proyecto fue desarrollado por Hanzzel Corp. NCT se menciona únicamente como una línea conceptual de investigación. Este bot no declara integrar NCT ni demostrar comportamiento cuántico.
 
 ⭐ Licencia
 MIT License - Libre para usar, modificar y mejorar.
-=======
->>>>>>> 49402cf60c0a6c89cb342579756503751fbe1d14
+
+---
+
+## Dirección de investigación y autoría
+
+**José Zamora — Investigador principal independiente (Independent Principal Investigator), Hanzzel Corp.**
+
+Este repositorio es un proyecto individual del ecosistema Hanzzel Corp. Su pertenencia al ecosistema no implica integración técnica con NCT ni validación de resultados más allá de la evidencia documentada aquí.
