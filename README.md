@@ -25,7 +25,7 @@ Este bot de Telegram utiliza modelos de IA como Stable Diffusion y Stable Video 
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone [https://github.com/Hanzzel-corp/telegram-ai-video-bot.git](https://github.com/Hanzzel-corp/telegram-ai-video-bot.git)
+    git clone https://github.com/Hanzzel-corp/telegram-ai-video-bot.git
     cd telegram-ai-video-bot
     ```
 
@@ -60,6 +60,8 @@ Una vez instalado, ejecuta el bot desde la carpeta raíz del proyecto con el sig
 
 ```bash
 python -m bot.telegram_bot
+```
+
 El bot se iniciará y estará esperando mensajes. Ahora puedes ir a Telegram y hablar con él.
 
 Para generar un video: Simplemente envíale un mensaje de texto con tu prompt (ej. Un colibrí de cristal volando entre rayos de luz).
